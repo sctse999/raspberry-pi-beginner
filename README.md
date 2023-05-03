@@ -8,10 +8,11 @@ echo "source ~/env/activate" >> ~/.bashrc
 
 ### Installing as a service
 
-1. Put [juptyer-lab.services](jupyter-lab.services) under /etc/systemd/system
+1. Put [juptyer-lab.services](jupyter-lab.service) under /etc/systemd/system
 2. Execute the following command
 
 ```
+sudo wget https://github.com/sctse999/raspberry-pi-beginner/raw/main/jupyter-lab.service
 sudo systemctl daemon-reload
 sudo systemctl enable jupyter.service
 ```

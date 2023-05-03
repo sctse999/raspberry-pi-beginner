@@ -8,7 +8,7 @@ Type=simple
 
 PIDFile=/run/jupyter.pid
 
-ExecStart=/bin/bash -c "/home/pi/env/bin/jupyter-lab --ip="0.0.0.0" --no-browser --notebook-dir=/home/pi/notebooks"
+ExecStart=/bin/bash -c "/home/pi/env/bin/jupyter-lab --ip="0.0.0.0" --no-browser --notebook-dir=/home/pi"
 
 User=pi
 
