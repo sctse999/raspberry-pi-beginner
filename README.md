@@ -3,7 +3,7 @@
 ```
 sudo apt-get install python3-virtualenv
 python3 -m virtualenv -p python3 env --system-site-packages
-echo "source ~/env/activate" >> ~/.bashrc
+echo "source ~/env/bin/activate" >> ~/.bashrc
 ```
 
 ### Installing as a service
