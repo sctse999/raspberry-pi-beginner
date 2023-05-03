@@ -12,9 +12,10 @@ echo "source ~/env/bin/activate" >> ~/.bashrc
 2. Execute the following command
 
 ```
-sudo wget https://github.com/sctse999/raspberry-pi-beginner/raw/main/jupyter-lab.service
+sudo curl -L https://github.com/sctse999/raspberry-pi-beginner/raw/main/jupyter-lab.service --output /etc/systemd/system/jupyter-lab.service
 sudo systemctl daemon-reload
-sudo systemctl enable jupyter.service
+sudo systemctl enable jupyter-lab.service
+sudo systemctl start jupyter-lab.service
 ```
 
 ### Installing luma.oled
