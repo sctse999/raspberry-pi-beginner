@@ -24,3 +24,5 @@ sudo systemctl start jupyter-lab.service
 sudo apt-get install python3-pil libjpeg-dev zlib1g-dev libfreetype6-dev liblcms2-dev libopenjp2-7 libtiff5 -y 
 pip3 install luma.oled
 ```
+
+### TODO
